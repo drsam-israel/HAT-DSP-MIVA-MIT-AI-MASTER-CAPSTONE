@@ -218,3 +218,47 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ============================================
+# HAT-DSP MASTER'S CAPSTONE
+# Research data and generated artifacts
+# ============================================
+
+# Original and processed datasets
+01_original_data/
+02_processed_data/
+*.csv
+*.xlsx
+*.parquet
+*.zip
+
+# Trained models and serialized objects
+04_models/
+*.pkl
+*.joblib
+
+# Generated research outputs
+05_evaluation/
+06_explainability/
+09_reports/
+10_figures/
+11_logs/
+
+# Credentials and environment secrets
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+service_account.json
+
+# Temporary notebook files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local environments
+.venv/
+venv/
+
