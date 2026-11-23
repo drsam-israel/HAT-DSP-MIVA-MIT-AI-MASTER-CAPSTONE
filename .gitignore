@@ -1,0 +1,24 @@
+
+# Datasets
+01_original_data/
+02_processed_data/
+*.csv
+*.parquet
+
+# Model artifacts
+04_models/
+*.pkl
+*.joblib
+
+# Credentials
+.env
+.env.*
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Temporary files
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
